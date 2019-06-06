@@ -1,0 +1,99 @@
+.top {
+	height: 100px;
+	background-color: grey;
+	display: flex;
+}
+.text {
+	font-size: 40px;
+	text-transform: uppercase;
+	font-family: myfont3;
+	transition: 0.8s;
+	margin-left: 300px;
+	text-align: center;
+	width: 1000px;
+
+}
+.text:hover {
+	color: white;
+	margin-top: 200px;
+
+
+}
+@font-face {
+	font-family: myfont3;
+	src: url(myfont3.ttf);
+}
+.banner {
+	height: 600px;
+	background-color: #BDB76B;
+	padding-top: 50px;
+}
+.content {
+	height: 1600px;
+	background-color: #BDB76B;
+}
+body {
+	margin: 0px;
+}
+.photo {
+	height: 500px;
+
+	background-color: orange; 
+}
+.parent {
+	height: 500px;
+	width:1225px;
+	background-color: 	#EEE8AA;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	display: flex;
+	padding-left: 75px;
+}
+.parent2 {
+	height: 300px;
+}
+.child {
+	height: 500px;
+	width: 500px;
+	background-color: purple;
+	margin-left: 50px;
+	transition: 0.8s; /*плавное появление*/
+}
+.child:hover {
+	background-color: yellow;
+	transform: scale(1.05); /*немного увеличивает*/
+	border-radius: 100px;
+	opacity: 0.5; /*прозрачность*/
+}
+.text1 {
+	color: white;
+	font-family: myfont1;
+	font-size: 30px;
+	margin-left: 60px;
+	
+
+}
+@font-face {
+	font-family: myfont1;
+	src: url(myfont1.ttf);
+}
+.marginleft {
+	margin-left: 250px;
+}
+.social {
+	width: 50px;
+	height: 50px;
+	margin-left: 30px;
+	
+}
+.logo {
+	width: 300px;
+	height: 300px;
+	margin-left: 620px;
+	margin-top: 10px;
+}
+.collagephoto {
+	width: 500px;
+	height: 500px;
+}
